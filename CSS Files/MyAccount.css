@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;    
+}
+body{
+    overflow-x:hidden;
+    line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+  
+html{
+    scroll-behavior:auto;
+}
+
+  
+  nav{
+    background: #ffffff;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 2px;
+  
+  }
+  .logo{
+    position: relative;
+    left: 5%;
+    height: 60px;
+  }
+  .store{
+    display: inline-block;
+    padding: 35px 310px 380px 0px;
+  
+  
+    font-size: 20px;
+  }
+  
+  nav ul{
+     
+        margin-left: 0%;
+        
+  }
+  nav ul li{
+    position: relative;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  nav ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+    
+  
+  }
+  .fa fa-bars{
+    color: #ffffff;
+  }
+  
+   nav ul li a:hover{
+    background: #1c1c1c;
+    color: #ffffff;
+    
+  }
+  .caro{
+    width: auto;
+    height: auto;
+  }
+ 
+  
+  input[type="search"]{
+    width:23%;
+    height: 50px;
+    margin: 15px 20px 0px 0px;
+    border-radius: 30px;
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    background-image: url(/icons/search.png);
+    background-position-x: 5px;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    background-size: 5%;
+  }
+  input[type="search"]:hover{
+    box-shadow: 0px 0px 20px 1px rgba(183, 183, 183, 0.627);
+  }
+
+
+  .profile-container{
+    position: relative;
+    margin: 20px 0px 0px 10px;
+    width: 97%;
+    height: 600px;
+    background:rgb(245, 245, 245);
+    border-radius: 30px;
+  }
+  .center{
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 400px;
+    height: 320px;
+    padding: 40px 20px;
+  }
+  .profile-container p{
+    position: relative;
+    top: 2%;
+    left: 3%;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .center img{
+    position: relative;
+    left: 20%;
+    border-radius: 200px;
+    width: 200px;
+  }
+  .center .mail{
+    font-size: 15px;
+    color: rgb(181, 181, 181);
+    margin: 0px 0px 0px 35px;
+  }
+  .center .name{
+    margin: 0px 0px 0px 30px;
+  }
+
+  .table{
+    position: relative;
+    left: 17%;
+    width: 1000px;
+    height: 190px;
+    background: rgb(245, 245, 245);
+  }
+
+  button{
+    position: relative;
+    margin-top: 50px;
+    left: 50%;
+    color: #fb6464;
+    border-color: #090909;
+    
+    width: 150px;
+    font-size: 18px;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff00;
+    border-radius: 5px;
+    
+  }
+  button img{
+    float: left;
+    margin: 0px 0px 0px 18px;
+    width: 20px;
+    vertical-align:middle;
+  }
+
+  table{
+    position: relative;
+    top: 10%;
+    left: 10%;
+  }
+  
+  .option-btn{
+    position: relative;
+    margin: 15px 50px 0px 0px;
+    
+    transition: ease-out 0.2s;
+  }
+  .option-btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 7px black;
+  }
+
+
+  

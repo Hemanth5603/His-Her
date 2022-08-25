@@ -1,0 +1,221 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    z-index: -1;
+    background-color: rgb(255, 255, 255);
+    display: inline;
+}
+.main-container{
+    display: block;
+}
+
+.background-image{
+    width: 600px;
+    height: 710px;
+    opacity: 20;
+    background: url("/Media/LoginBG.png");
+}
+
+.container{
+    position: absolute;
+    width: 370px;
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 200px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.811);
+    padding: 5px;   
+}
+.logo p{
+    justify-content:end;
+    font-size: 16px;
+    margin-left:30px;
+    margin-right: 70px;
+    color: rgb(0, 0, 0);
+}
+
+img{
+    width: 200px;
+    margin-left: 80px;
+}
+
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%,-50%);
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #ffbfbc 0%, #e1d7ff 100%);
+    /*background: linear-gradient(0deg, rgba(252,187,216,1) 15%, rgba(238,174,202,1) 54%, rgba(148,187,233,1) 100%);*/
+    width: 580px;
+    height: 640px;
+    border-radius: 10px;
+
+}
+
+.form{
+    position: relative;
+    top: 28%;
+    left: 22%;
+}
+
+.logtext{
+    position: absolute;
+    left: 35%;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logtext::after{
+    content:"";
+    width:0%;
+    height: 5px;
+    background: rgb(255, 83, 114);
+    display: block;
+    margin:auto;
+    transition: .5s;
+}
+
+.logtext:hover::after{
+    width: 90%;
+}
+
+.mail{
+    position: relative;
+    outline-color: rgb(142, 172, 255);
+    margin-bottom: 0px;
+    outline-color: rgb(255, 142, 176);
+    border: none;
+    width: 250px;
+    border-radius: 15px;
+    border-collapse: collapse;
+    height: 10px;
+    padding: 15px;
+    font-size: large;
+}
+p{
+    font-size: 22px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type="email"]{
+    background-image: url("/Media/icons/mail.png");
+    background-position-x: 240px;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: 8%;
+    text-align: left;
+
+}
+
+
+input[type="password"]{
+    background-image: url("/Media/icons/lock.png");
+    background-position-x: 240px;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: 8%;
+    text-align: left;
+   
+}
+input[type="password"]:hover{
+    background-image: url("/Media/icons/lock.png");
+    background-position-x: 210px;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: 8%;
+    text-align: left;
+
+    
+    
+}
+.pass{
+    margin-bottom: 3px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline-color: rgb(255, 142, 176);  
+    background-image: url("/Media/icons/lock.png");
+    width: 250px;
+    border-radius: 15px;
+    border-collapse: collapse;
+    height: 12px;
+    padding: 15px;
+    font-size: large;
+    transition: 0.3s;
+    
+
+}
+input[type=button] {
+    border-radius: 6px;
+    
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 27px;
+    background: #000000;
+    padding: 10px 21px 11px 20px;
+    text-decoration: none;
+    transform: 0.5;
+  }
+  
+  input[type=button]:hover {
+    background: #000000;
+    text-decoration: none;
+    width: 200px;
+    height: 100px;
+  }
+
+#forgot{
+    position:relative;
+    left: 36%;
+    color: gray;
+    font-size: 12px;
+    cursor: pointer;
+}
+.have-account{
+    position: absolute;
+    left: 10%;
+    display: flex;
+
+    
+}
+
+.have-it{
+    font-size: 15px;
+}
+.create{
+    font-size: 15px;
+    color: rgb(21, 0, 254); 
+    cursor: pointer;
+
+}
+
+.btns{
+    position: absolute;
+    top: 130%;
+    left: 5%;
+}
+.btns button{
+    width: 120px;
+    height: 45px;
+    margin: 0px 5px 0px 0px;
+    background-color: rgba(0, 0, 0, 0.987);
+    color: white;
+    border-width: 0px;
+    border-radius: 3px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+}   
+
+.btns button:hover{
+    transform: scale(110%);
+}
+
+
+
