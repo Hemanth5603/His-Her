@@ -90,7 +90,7 @@ input[type="search"]{
     border-radius: 30px;
     padding: 10px;
   
-    background-image: url(/Media/icons/search.png);
+    background-image: url("LoginMedia/search.png");
 
     background-position-x: 10px;
     background-position-y: 50%;
@@ -240,7 +240,7 @@ input[type="search"]:hover{
 }
 
 .shirts{
-  background-image: url(/Media/icons/shirt.png);
+  background-image: url("LoginMedia/shirt.png");
   background-position-x: 10px;
   background-position-y: 50%;
   background-repeat: no-repeat;
@@ -250,7 +250,7 @@ input[type="search"]:hover{
 
 }
 .jeans{
-  background-image: url(/Media/icons/jeans.png);
+  background-image: url("LoginMedia/jeans.png");
   background-position-x: 10px;
   background-position-y: 50%;
   background-repeat: no-repeat;
@@ -260,7 +260,7 @@ input[type="search"]:hover{
 
 }
 .shoes{
-  background-image: url(/Media/icons/sneakers.png);
+  background-image: url("LoginMedia/sneakers.png");
   background-position-x: 10px;
   background-position-y: 50%;
   background-repeat: no-repeat;
@@ -270,7 +270,7 @@ input[type="search"]:hover{
 
 }
 .watches{
-  background-image: url(/Media/icons/watch.png);
+  background-image: url("LoginMedia/watch.png");
   background-position-x: 10px;
   background-position-y: 50%;
   background-repeat: no-repeat;
@@ -280,7 +280,7 @@ input[type="search"]:hover{
 
 }
 .sarees{
-  background-image: url(/Media/icons/saree.png);
+  background-image: url("LoginMedia/saree.png");
   background-position-x: 10px;
   background-position-y: 50%;
   background-repeat: no-repeat;
@@ -290,7 +290,7 @@ input[type="search"]:hover{
 
 }
 .tops{
-  background-image: url(/Media/icons/tshirt.png);
+  background-image: url("LoginMedia/tshirt.png");
   background-position-x: 10px;
   background-position-y: 50%;
   background-repeat: no-repeat;
@@ -300,7 +300,7 @@ input[type="search"]:hover{
 
 }
 .kurthas{
-  background-image: url(/Media/icons/formal.png);
+  background-image: url("LoginMedia/formal.png");
   background-position-x: 10px;
   background-position-y: 50%;
   background-repeat: no-repeat;
@@ -309,7 +309,7 @@ input[type="search"]:hover{
 
 }
 .dresses{
-  background-image: url(/Media/icons/dress.png);
+  background-image: url("LoginMedia/dress.png");
   background-position-x: 10px;
   background-position-y: 50%;
   background-repeat: no-repeat;
