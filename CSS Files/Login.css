@@ -18,7 +18,7 @@ body{
     width: 600px;
     height: 710px;
     opacity: 20;
-    background: url("/Media/LoginBG.png");
+    background: url("LoginMedia/LoginBG.png");
 }
 
 .container{
@@ -104,7 +104,7 @@ p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 input[type="email"]{
-    background-image: url("/Media/icons/mail.png");
+    background-image: url("LoginMedia/mail.png");
     background-position-x: 240px;
     background-position-y: 50%;
     background-repeat: no-repeat;
@@ -115,7 +115,7 @@ input[type="email"]{
 
 
 input[type="password"]{
-    background-image: url("/Media/icons/lock.png");
+    background-image: url("LoginMedia/lock.png");
     background-position-x: 240px;
     background-position-y: 50%;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@ input[type="password"]{
    
 }
 input[type="password"]:hover{
-    background-image: url("/Media/icons/lock.png");
+    background-image: url("LoginMedia/lock.png");
     background-position-x: 210px;
     background-position-y: 50%;
     background-repeat: no-repeat;
@@ -139,7 +139,7 @@ input[type="password"]:hover{
     background-color: rgb(255, 255, 255);
     border: none;
     outline-color: rgb(255, 142, 176);  
-    background-image: url("/Media/icons/lock.png");
+    background-image: url("LoginMedia/icons/lock.png");
     width: 250px;
     border-radius: 15px;
     border-collapse: collapse;
