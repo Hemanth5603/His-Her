@@ -103,7 +103,7 @@ html{
     width: 1200px;
     top: 30%;
     margin: 90px;
-    left: 8%;
+    left: 5%;
     border-radius:65px;
     z-index: 1;
   }
@@ -114,7 +114,7 @@ html{
     font-style: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     top: 25%;
-    left: 43%;
+    left: 46%;
     z-index: 2;
     display: block;
 
@@ -124,7 +124,7 @@ html{
     width: 98%;
     height: 400px;
     top: 67%;
-    left: 17%;
+    left: 13%;
     margin-left:720px;
     transform: translate(-50%, -45%);
     display: flex;
