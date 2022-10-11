@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="CSS Files/Login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
     <!-- CSS only -->
 
 </head>
@@ -28,10 +30,12 @@
                 <h3 class = "logtext">Login</h3>
                 <form class = "form">
                     <p class="email-text">Email</p>
-                    <input placeholder="something@gmail.com" type="email" class = "mail"  name="email">
+                    <input placeholder="something@gmail.com" type="email" id = "mail"  name="email">
+                    <p id="email-response"></p>
                     <p class="pass-text">Password</p>
-                    <input placeholder=password type="password" class="pass">
+                    <input placeholder=password type="password" id="pass" name = "pass">
                     <p id = "forgot">forgot password?</p>
+                    <p id="password-response"></p>
                     <div class="have-account">
                         <p class="have-it">Have account ?</p>
                         <p class="create">create account</p>
@@ -49,6 +53,7 @@
    
     
 </div>
+    <script src="login.js"></script>
 
 
 
